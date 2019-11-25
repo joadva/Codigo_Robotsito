@@ -31,3 +31,19 @@ void setup()
     digitalWrite(mtoder, LOW);
     delay(1000);
 }
+//Ciclo principal
+void loop()
+{
+    adelante();
+    delay(1000);
+    detenido();
+    delay(1000);
+    atras();
+    delay(1000);
+    detenido();
+    delay(1000);
+    derecha();
+    delay(1000);
+    izquierda();
+    delay(1000);
+}
