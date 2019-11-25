@@ -47,3 +47,19 @@ void loop()
     izquierda();
     delay(1000);
 }
+//funcion adelaten :V
+void adelante()
+{
+    analogWrite(pwmtoder, pwmvalder);
+    analogWrite(pwmtoizq, pwmvalizq);
+    digitalWrite(mtoder, HIGH);
+    digitalWrite(mtoizq, HIGH);
+}
+//funcion atras
+void atras()
+{
+    analogWrite(pwmtoder, pwmvalder);
+    analogWrite(pwmtoizq, pwmvalizq);
+    digitalWrite(mtoder, LOW);
+    digitalWrite(mtoizq, LOW);
+}
