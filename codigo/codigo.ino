@@ -1,4 +1,4 @@
-// Inicio de programa
+// Inicio de programa para checar sensores bebes uwu 
 void setup()
 {
     pinMode(4, INPUT);
@@ -50,3 +50,4 @@ void loop()
         Serial.println("objeto cercano");
     }
     delay(1000); // tiempo de estabuilidad :V deal izzi
+}
